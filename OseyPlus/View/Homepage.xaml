@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OseyPlus.View.Homepage"
+             Shell.NavBarIsVisible="False"
+             Title="Homepage">
+    <VerticalStackLayout>
+        <ImageButton  Source="menu" WidthRequest="25" HeightRequest="25" HorizontalOptions="StartAndExpand" Margin="20"/>
+        <Frame HorizontalOptions="EndAndExpand"
+            CornerRadius="30"
+            HeightRequest="40"
+            WidthRequest="40"
+            Margin="0,-45,20,0"
+            >
+            <Image Source="about" HeightRequest="50" WidthRequest="50"/>
+        </Frame>
+        <Grid Margin="20">
+            <Label Text="Cards" TextColor="White" FontAttributes="Bold" FontSize="17" HorizontalOptions="StartAndExpand"/>
+            <Label Text="Add New" TextColor="White"  FontSize="14" HorizontalOptions="EndAndExpand" Margin="0,3,18,0" />
+            <ImageButton Source="plus" WidthRequest="12" HeightRequest="12" HorizontalOptions="EndAndExpand" Margin="0,3,1,0" />
+        </Grid>
+        <Grid>
+            <Frame x:Name="cartviewjob"
+                     WidthRequest="350"
+                     HeightRequest="186"
+                     CornerRadius="24"
+                     Grid.Row="1"
+                     Opacity="30"
+                     Margin="1,0,0,0">
+                <Image Source="backg"
+                       WidthRequest="600"
+                       HeightRequest="300"/>
+
+            </Frame>
+            <Label Text="Available balance" TextColor="#525354" Margin="50,20,0,0"/>
+            <Label x:Name="somme" Text="$3,578" TextTransform="Uppercase" FontAttributes="Bold" FontSize="29" Margin="50,50,0,0"/>
+            <Label Text="See details" Margin="50,150,0,0"/>
+            <Label x:Name="datecard" Text="08/11" HorizontalOptions="EndAndExpand" FontAttributes="Bold" Margin="30,0,30,15" VerticalOptions="EndAndExpand"/>
+            <Image Source="visa" HeightRequest="64" WidthRequest="64" HorizontalOptions="EndAndExpand" Margin="0,0,30,120"/>
+        </Grid>
+
+        <Grid Margin="20,50,0,0">
+            <Label  Text="Quick Send" TextColor="White" FontSize="17" FontAttributes="Bold" HorizontalOptions="StartAndExpand" />
+            <Label Text="View All" TextColor="#9C9D9D" FontSize="12" HorizontalOptions="EndAndExpand" Margin="0,5,50,0"/>
+            <Image Source="next" HeightRequest="15" WidthRequest="15" HorizontalOptions="EndAndExpand" Margin="0,5,25,3"/>
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>

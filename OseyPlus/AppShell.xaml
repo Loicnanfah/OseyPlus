@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="OseyPlus.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:OseyPlus.View"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent
+      Title=""
+      Icon="home"
+      ContentTemplate="{DataTemplate local:Homepage}"
+      Route="MainPage" />
+
+        <ShellContent
+      Title=""
+      Icon="calenda"
+      ContentTemplate="{DataTemplate local:Onboarding}"
+      Route="MainPage" />
+
+        <ShellContent
+      Title=""
+      Icon="wallet"
+      ContentTemplate="{DataTemplate local:Onboarding}"
+      Route="MainPage" />
+
+        <ShellContent
+      Title=""
+      Icon="user"       
+      ContentTemplate="{DataTemplate local:Onboarding}"
+      Route="MainPage" />
+    </TabBar>
+
+</Shell>
