@@ -16,7 +16,7 @@
         <ShellContent
       Title=""
       Icon="calenda"
-      ContentTemplate="{DataTemplate local:Onboarding}"
+      ContentTemplate="{DataTemplate local:Calenda}"
       Route="MainPage" />
 
         <ShellContent
