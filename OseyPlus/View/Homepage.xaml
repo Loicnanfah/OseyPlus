@@ -45,5 +45,82 @@
             <Image Source="next" HeightRequest="15" WidthRequest="15" HorizontalOptions="EndAndExpand" Margin="0,5,25,3"/>
         </Grid>
 
+        <Grid>
+            <Frame WidthRequest="101" HeightRequest="138" CornerRadius="24" BorderColor="Black" BackgroundColor="#212223" Margin="-220,15,1,10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="3*"/>
+                    </Grid.RowDefinitions>
+
+                    <Frame HeightRequest="46" WidthRequest="46" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" CornerRadius="40" Grid.Row="0" BorderColor="White">
+                        <Image Source="about" HeightRequest="55" WidthRequest="55"/>
+                    </Frame>
+
+                    <Label Text="Alex Savy" TextTransform="Default" FontSize="11" HorizontalOptions="CenterAndExpand" Margin="10,60,2,0" TextColor="White" HorizontalTextAlignment="Center"/>
+                    <Label Text="$15.15" TextColor="White" HorizontalOptions="CenterAndExpand" FontSize="11" Margin="3,75,1,0"/>
+
+                </Grid>
+            </Frame>
+            <Frame WidthRequest="101" HeightRequest="138" CornerRadius="24" BorderColor="Black" BackgroundColor="#212223" Margin="15,15,11,10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="3*"/>
+                    </Grid.RowDefinitions>
+
+                    <Frame HeightRequest="46" WidthRequest="46" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" CornerRadius="40" Grid.Row="0" BorderColor="White">
+                        <Image Source="loico" HeightRequest="55" WidthRequest="55"/>
+                    </Frame>
+
+                    <Label Text="tony" TextTransform="Default" FontSize="11" HorizontalOptions="CenterAndExpand" Margin="10,60,2,0" TextColor="White" HorizontalTextAlignment="Center"/>
+                    <Label Text="$150.15" TextColor="White" HorizontalOptions="CenterAndExpand" FontSize="11" Margin="3,75,1,0"/>
+
+                </Grid>
+            </Frame>
+            <Frame WidthRequest="101" HeightRequest="138" CornerRadius="24" BorderColor="Black" BackgroundColor="#212223" Margin="0,15,30,10" HorizontalOptions="EndAndExpand">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="4*"/>
+                    </Grid.RowDefinitions>
+
+                    <Frame HeightRequest="46" WidthRequest="46" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" CornerRadius="40" Grid.Row="0" BorderColor="White">
+                        <Image Source="big" HeightRequest="55" WidthRequest="55"/>
+                    </Frame>
+
+                    <Label Text="francois" TextTransform="Default" FontSize="11" HorizontalOptions="CenterAndExpand" Margin="10,60,2,0" TextColor="White" HorizontalTextAlignment="Center"/>
+                    <Label Text="$355.15" TextColor="White" HorizontalOptions="CenterAndExpand" FontSize="11" Margin="3,75,1,0"/>
+
+                </Grid>
+            </Frame>
+
+        </Grid>
+        
+        <Grid>
+            <Label Text="Activity" FontAttributes="Bold" FontSize="17" TextColor="White"  HorizontalOptions="StartAndExpand" Margin="20,16,0,0"/>
+            <Label Text="View All" TextColor="#9C9D9D" FontSize="12" HorizontalOptions="EndAndExpand" Margin="0,18,50,0"/>
+            <Image Source="next" HeightRequest="15" WidthRequest="15" HorizontalOptions="EndAndExpand" Margin="0,18,20,180"/>
+            <Frame WidthRequest="360" HeightRequest="90" CornerRadius="24" BorderColor="Black" BackgroundColor="#212223" Margin="25,10,25,0" HorizontalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="4*"/>
+                    </Grid.RowDefinitions>
+
+                    <Frame HeightRequest="46" WidthRequest="46" HorizontalOptions="StartAndExpand"  CornerRadius="40" Grid.Row="0" BorderColor="White">
+                        <Image Source="sportify" HeightRequest="55" WidthRequest="55"/>
+                    </Frame>
+
+                    <Label Text="Sportify" TextTransform="Default" FontSize="16" HorizontalOptions="StartAndExpand" Margin="60,10,2,0" TextColor="White" HorizontalTextAlignment="Center"/>
+                    <Label Text="$355.15" TextColor="White" HorizontalOptions="EndAndExpand" FontSize="11" Margin="3,5,1,0"/>
+                    <Label Text="14 jan" TextColor="#9C9D9D" HorizontalOptions="EndAndExpand" FontSize="11" Margin="3,30,1,0"/>
+
+                </Grid>
+            </Frame>
+
+        </Grid>
+
+        
     </VerticalStackLayout>
 </ContentPage>

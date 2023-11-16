@@ -52,11 +52,14 @@
 	  <None Remove="Resources\Images\about.jpg" />
 	  <None Remove="Resources\Images\backg.png" />
 	  <None Remove="Resources\Images\background.png" />
+	  <None Remove="Resources\Images\big.jpg" />
 	  <None Remove="Resources\Images\calenda.ico" />
 	  <None Remove="Resources\Images\home.ico" />
+	  <None Remove="Resources\Images\loico.jpg" />
 	  <None Remove="Resources\Images\menu.ico" />
 	  <None Remove="Resources\Images\next.ico" />
 	  <None Remove="Resources\Images\plus.ico" />
+	  <None Remove="Resources\Images\sportify.ico" />
 	  <None Remove="Resources\Images\user.ico" />
 	  <None Remove="Resources\Images\visa.png" />
 	  <None Remove="Resources\Images\wallet.ico" />
